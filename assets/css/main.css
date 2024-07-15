@@ -886,6 +886,9 @@ section {
   background-color: rgba(var(--color-black-rgb), 0.2);
   color: var(--color-white);
 }
+.column {
+   flex: 0 0 50%; /* Ajusta el tamaño de las columnas para que cada una ocupe el 50% del ancho del contenedor */
+   padding: 10px;
 
 .aside-links li {
   margin-bottom: 10px;
@@ -1298,3 +1301,35 @@ section {
 .footer .credits a {
   color: var(--color-white);
 }
+/*--------------------------------------------------------------
+# Twitter
+--------------------------------------------------------------*/
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .video {
+            flex: 0 1 30%; /* Ajusta el tamaño de los videos para que quepan en una línea */
+            margin: 10px;
+        }
+        .video blockquote {
+            margin: 0; /* Elimina el margen alrededor del tweet */
+        }
+/*--------------------------------------------------------------
+# Edits
+--------------------------------------------------------------*/		
+
+   .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .video-container {
+            width: 50px; /* Ajusta este valor para cambiar el tamaño del video */
+            margin: 10px;
+        }
+        video {
+            width: 50%;
+            height: auto;
+        }
